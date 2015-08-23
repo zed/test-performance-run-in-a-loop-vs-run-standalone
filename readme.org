@@ -1,0 +1,7 @@
+| Python version                           | in a loop                    | standalone |
+|------------------------------------------+------------------------------+------------|
+| Python 2.7.9                             | min=2.86 us, max=1662.02 us  | 10.97 us   |
+| Python 3.4.3                             | min=6.29 us, max=1681.61 us  | 10.91 us   |
+| Python 2.7.9 [PyPy 2.6.0 with GCC 4.8.2] | min=0.00 us, max=9486.91 us  | 74.15 us   |
+| Python 3.2.5 [PyPy 2.4.0 with GCC 4.6.3] | min=0.00 us, max=7759.09 us  | 82.02 us   |
+| Jython 2.7.0                             | min=0.00 us, max=18999.81 us | 1000.17 us |
