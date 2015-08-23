@@ -1,7 +1,7 @@
 * [[http://stackoverflow.com/questions/32163585/how-to-handle-cpu-cache-in-python-or-fastest-way-to-call-a-function-once][how to handle cpu cache in python ( or fastest way to call a function once)]]
 
 #+ATTR_HTML: title="build status on travis-ci.org"
-[[file:https://api.travis-ci.org/zed/test-performance-run-in-a-loop-vs-run-standalone.svg?branch=master][https://travis-ci.org/zed/test-performance-run-in-a-loop-vs-run-standalone]]
+[[https://api.travis-ci.org/zed/test-performance-run-in-a-loop-vs-run-standalone.svg?branch=master]]
 
 Usage:
     $ tox
