@@ -1,3 +1,9 @@
+* [how to handle cpu cache in python ( or fastest way to call a function once)][http://stackoverflow.com/questions/32163585/how-to-handle-cpu-cache-in-python-or-fastest-way-to-call-a-function-once]
+
+Usage:
+    $ tox
+
+Results:
 | Python version                           | in a loop                    | standalone |
 |------------------------------------------+------------------------------+------------|
 | Python 2.7.9                             | min=2.86 us, max=1662.02 us  | 10.97 us   |
