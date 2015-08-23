@@ -1,7 +1,9 @@
-import time
+from timeit import default_timer as timer
 a = range(500)
 
+times = []
 for i in range(100000):
-    st = time.time()
+    st = timer()
     sum(a)
-    print (time.time() - st)*1e6
+    times.append(timer() - st)
+print("min=%.2f us, max=%.2f us" % (min(times)*1e6, max(times)*1e6))

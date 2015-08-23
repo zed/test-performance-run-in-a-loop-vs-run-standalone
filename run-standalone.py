@@ -1,4 +1,4 @@
-import time
+from timeit import default_timer as timer # allow Windows friends to play
 a = range(500)
 
 sum(a)
@@ -7,6 +7,6 @@ for i in range(1000000): #just to create a time interval, seems this disturb cpu
     pass
 
 
-st = time.time()
+st = timer()
 sum(a)
-print (time.time() - st)*1e6
+print("%.2f us" % ((timer() - st)*1e6,))
